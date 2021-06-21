@@ -1,0 +1,67 @@
+2021-05-13 10:12:56.101  INFO 4280 --- [restartedMain] com.wang.MyBlogApplication               : Starting MyBlogApplication on Laptop with PID 4280 (E:\IDEA\myblog\target\classes started by halo in E:\IDEA\myblog)
+2021-05-13 10:12:56.116 DEBUG 4280 --- [restartedMain] com.wang.MyBlogApplication               : Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+2021-05-13 10:12:56.116  INFO 4280 --- [restartedMain] com.wang.MyBlogApplication               : The following profiles are active: dev
+2021-05-13 10:13:02.778  WARN 4280 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-13 10:13:03.499  INFO 4280 --- [restartedMain] com.wang.MyBlogApplication               : Started MyBlogApplication in 8.063 seconds (JVM running for 9.973)
+2021-05-13 10:13:31.841  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-13 10:13:31.949  WARN 4280 --- [http-nio-8082-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-05-13 10:13:31.963  WARN 4280 --- [http-nio-8082-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-05-13 10:13:31.972  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Result : index
+2021-05-13 10:13:33.193  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:33.201  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:35.515  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/types/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.TypeShowController.types', args=[-1, Page request [number: 0, size 20, sort: UNSORTED], {}]}
+2021-05-13 10:13:35.538  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Result : types
+2021-05-13 10:13:36.080  INFO 4280 --- [http-nio-8082-exec-4] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:36.089  INFO 4280 --- [http-nio-8082-exec-4] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:36.664  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/tags/-1', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.TagsShowController.tags', args=[-1, Page request [number: 0, size 20, sort: UNSORTED], {}]}
+2021-05-13 10:13:36.703  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Result : tags
+2021-05-13 10:13:37.105  INFO 4280 --- [http-nio-8082-exec-7] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:37.116  INFO 4280 --- [http-nio-8082-exec-7] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:37.829  INFO 4280 --- [http-nio-8082-exec-9] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/archives', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.ArchiveShowController.archives', args=[{}]}
+2021-05-13 10:13:37.861  INFO 4280 --- [http-nio-8082-exec-9] com.wang.aspect.LogAspect                : Result : archives
+2021-05-13 10:13:38.392  INFO 4280 --- [http-nio-8082-exec-10] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:38.399  INFO 4280 --- [http-nio-8082-exec-10] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:41.533  INFO 4280 --- [http-nio-8082-exec-8] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-13 10:13:41.547  INFO 4280 --- [http-nio-8082-exec-8] com.wang.aspect.LogAspect                : Result : index
+2021-05-13 10:13:42.027  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:42.035  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:43.126  INFO 4280 --- [http-nio-8082-exec-3] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.blog', args=[38, {}]}
+2021-05-13 10:13:43.246  INFO 4280 --- [http-nio-8082-exec-3] com.wang.aspect.LogAspect                : Result : blog
+2021-05-13 10:13:43.978  INFO 4280 --- [http-nio-8082-exec-2] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:43.986  INFO 4280 --- [http-nio-8082-exec-2] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:44.111  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.CommentController.commentList', args=[38, {}]}
+2021-05-13 10:13:44.163  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Result : blog :: commentList
+2021-05-13 10:13:47.252  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.blog', args=[38, {}]}
+2021-05-13 10:13:47.266  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Result : blog
+2021-05-13 10:13:47.697  INFO 4280 --- [http-nio-8082-exec-7] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:47.706  INFO 4280 --- [http-nio-8082-exec-7] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:47.780  INFO 4280 --- [http-nio-8082-exec-9] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.CommentController.commentList', args=[38, {}]}
+2021-05-13 10:13:47.803  INFO 4280 --- [http-nio-8082-exec-9] com.wang.aspect.LogAspect                : Result : blog :: commentList
+2021-05-13 10:13:50.091  INFO 4280 --- [http-nio-8082-exec-8] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.blog', args=[38, {}]}
+2021-05-13 10:13:50.105  INFO 4280 --- [http-nio-8082-exec-8] com.wang.aspect.LogAspect                : Result : blog
+2021-05-13 10:13:50.546  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:13:50.555  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:13:50.656  INFO 4280 --- [http-nio-8082-exec-3] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.CommentController.commentList', args=[38, {}]}
+2021-05-13 10:13:50.673  INFO 4280 --- [http-nio-8082-exec-3] com.wang.aspect.LogAspect                : Result : blog :: commentList
+2021-05-13 10:14:01.976  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-05-13 10:14:02.008  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Result : index
+2021-05-13 10:14:02.628  INFO 4280 --- [http-nio-8082-exec-10] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:14:02.638  INFO 4280 --- [http-nio-8082-exec-10] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:14:04.348  INFO 4280 --- [http-nio-8082-exec-7] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.blog', args=[38, {}]}
+2021-05-13 10:14:04.360  INFO 4280 --- [http-nio-8082-exec-7] com.wang.aspect.LogAspect                : Result : blog
+2021-05-13 10:14:04.743  INFO 4280 --- [http-nio-8082-exec-9] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:14:04.748  INFO 4280 --- [http-nio-8082-exec-9] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:14:05.170  INFO 4280 --- [http-nio-8082-exec-4] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.CommentController.commentList', args=[38, {}]}
+2021-05-13 10:14:05.189  INFO 4280 --- [http-nio-8082-exec-4] com.wang.aspect.LogAspect                : Result : blog :: commentList
+2021-05-13 10:14:09.191  INFO 4280 --- [http-nio-8082-exec-8] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.blog', args=[38, {}]}
+2021-05-13 10:14:09.204  INFO 4280 --- [http-nio-8082-exec-8] com.wang.aspect.LogAspect                : Result : blog
+2021-05-13 10:14:09.844  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:14:09.851  INFO 4280 --- [http-nio-8082-exec-6] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:14:10.011  INFO 4280 --- [http-nio-8082-exec-2] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.CommentController.commentList', args=[38, {}]}
+2021-05-13 10:14:10.027  INFO 4280 --- [http-nio-8082-exec-2] com.wang.aspect.LogAspect                : Result : blog :: commentList
+2021-05-13 10:14:13.581  INFO 4280 --- [http-nio-8082-exec-3] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/blog/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.blog', args=[38, {}]}
+2021-05-13 10:14:13.593  INFO 4280 --- [http-nio-8082-exec-3] com.wang.aspect.LogAspect                : Result : blog
+2021-05-13 10:14:13.986  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.IndexController.newBlogs', args=[{}]}
+2021-05-13 10:14:13.991  INFO 4280 --- [http-nio-8082-exec-5] com.wang.aspect.LogAspect                : Result : _fragments :: newblogList
+2021-05-13 10:14:14.125  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Request : RequestLog{url='http://localhost:8082/comments/38', ip='0:0:0:0:0:0:0:1', classMethod='com.wang.controller.CommentController.commentList', args=[38, {}]}
+2021-05-13 10:14:14.138  INFO 4280 --- [http-nio-8082-exec-1] com.wang.aspect.LogAspect                : Result : blog :: commentList
